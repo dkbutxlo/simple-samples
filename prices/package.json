@@ -9,9 +9,11 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "electron": "^3.0.2"
+    "electron": "^3.0.2",
+    "electron-reloader": "^1.0.1"
   },
   "dependencies": {
+    "alphavantage": "^2.1.0",
     "papaparse": "^4.6.0"
   }
 }

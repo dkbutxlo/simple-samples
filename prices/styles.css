@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .gold, .gold small {
   background-color: gold;
   color: #403600;
@@ -42,11 +44,14 @@ html, body, .container-fluid {
 }
 
 /* Add a $ before the price */
-.price::before {
-  content: '$';
+.price::after {
+  content: '€';
 }
 
 /* Hide the price and change when they are empty */
 .change:empty, .price:empty {
   display: none;
 }
+
+
+

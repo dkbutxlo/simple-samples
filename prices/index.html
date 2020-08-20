@@ -3,12 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-
+  <!-- <meta http-equiv="refresh" content="3"> -->
   <title>Current Prices</title>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
   <!-- Scripts -->
   <script>
@@ -16,15 +17,19 @@
   </script>
   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
   <script src="window.js"></script>
+
 </head>
 
 <body>
   <div id="container" class="container-fluid">
 
+
+  
+   
     <!-- Oil Row -->
     <div class="row oil">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
-        <h1>Oil <small>per barrel</small></h1>
+        <h1>Curevac SE<small></small></h1>
         <h2>
             <span id="oil-price" class="price"></span>
             <small id="oil-change" class="change"></small>
@@ -35,26 +40,40 @@
     <!-- Gold Row -->
     <div class="row gold">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h1>Gold <small>per ounce</small></h1>
+        <h1>BioNTech SE</h1>
+        <small>hi</small>
         <h2>
             <span id="gold-price" class="price"></span>
             <small id="gold-change" class="change"></small>
           </h2>
       </div>
     </div>
+    <div class="row gold">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h1>Mein Gewinn </h1>
+        <h2>
+            <span id="gewinn-price" class="price"></span>
+            <small id="gewinn-change" class="change"></small>
+          </h2>
+      </div>
+    </div>
 
-    <!-- Silver Row -->
+<!--  
     <div class="row silver">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h1 class="silver">Silver <small>per ounce</small></h1>
+        <h1 class="silver">Apple</h1>
         <h2>
             <span id="silver-price" class="price"></span>
             <small id="silver-change" class="change"></small>
           </h2>
       </div>
-    </div>
+    </div> -->
+    <h5>Aktie des Tages:</h5>
+    <p id="top"></p>
+</div>
 
   </div>
+</div>
 </body>
 
 </html>
